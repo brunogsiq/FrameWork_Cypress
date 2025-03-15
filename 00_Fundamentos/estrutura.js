@@ -44,72 +44,63 @@ O primeiro arquivo criado é o package.json
             e também teremos ficando:
                 cypress\e2e\1-getting-started && 2-advanced-examples
 
-Os testes serão escritos da seguinte forma e estes arquivos ficarão inseridos na pasta cypress\e2e\1-getting-started
-    nomeDoTeste.spec.js
+    Os testes serão escritos da seguinte forma e estes arquivos ficarão inseridos na pasta cypress\e2e\1-getting-started
+        nomeDoTeste.spec.js
 
-As pastas 1-getting-started e 2-advanced-examples poderão ser apagadas pois as mesmas são exemplos de testes iniciais quando se abre a interface do cypress,
-    Por tanto apenas acumulando arquivos que não serão necessários.
+    As pastas 1-getting-started e 2-advanced-examples poderão ser apagadas pois as mesmas são exemplos de testes iniciais quando se abre a interface do cypress,
+        Por tanto apenas acumulando arquivos que não serão necessários.
 
-Conclui-se com isto que em e2e ficarão os cenários de teste,
+    Conclui-se com isto que em e2e ficarão os cenários de teste,
 
     Atualmente, utilizo a seguinte estrutura de projeto:
 
     Estruturação do Projeto:
-Empresa/
-    projNameSistema/
-        _wiki/
-            duvidas.js
-            documents.js
-            structure.js
-            caseTests.js
-            explanationProject.js
-       backend/
-        automation/
-            cypress/
-                fixtures/
-                support/
-                tests/
-                    lib/
-                        dates/
-                        function/
-                        pageObjects/
-                        scenes/
-            node_modules/
-            cypress.config.js
-            package.json
-            package-lock.json
-            .gitignore
-        frontend/
-            automation/
-                cypress/
-                    fixtures/
-                    support/
-                    tests/
-                        lib/
-                            dates/
-                            function/
-                            pageObjects/
-                            scenes/
-                node_modules/
-                cypress.config.js
-                package.json
-                package-lock.json
-                .gitignore
-        Readme.md
+        Empresa/
+            projNameSistema/
+                _wiki/
+                    duvidas.js
+                    documents.js
+                    structure.js
+                    caseTests.js
+                    explanationProject.js
+            backend/
+                automation/
+                    cypress/
+                        fixtures/
+                        support/
+                        tests/
+                            lib/
+                                dates/
+                                function/
+                                pageObjects/
+                                scenes/
+                    node_modules/
+                    cypress.config.js
+                    package.json
+                    package-lock.json
+                    .gitignore
+                frontend/
+                    automation/
+                        cypress/
+                            fixtures/
+                            support/
+                            tests/
+                                lib/
+                                    dates/
+                                    function/
+                                    pageObjects/
+                                    scenes/
+                        node_modules/
+                        cypress.config.js
+                        package.json
+                        package-lock.json
+                        .gitignore
+                Readme.md
 
     Em fixtures, teremos uma pasta para utilização de dados, ou seja, a função do arquivo json.
 
     Em support, utilizaremos para funções auxiliares, como novos comandos.
 
     Em package.json, posso ir na sessão de scripts e add os comandos npx cypress run ou npx cypress open
-            e utilizando o comando npm test, o mesmo irá executar o script seja por back ou g.i do cypress.
-
-
-
-
-
-
-
-
-
+        e utilizando o comando npm test, o mesmo irá executar o script seja por back ou g.i do cypress.
 */

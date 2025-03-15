@@ -1,0 +1,16 @@
+{
+  "name": "framework_cypress",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao Repositório do Framework Cypress, um espaço dedicado à exploração e aprimoramento do Cypress, uma ferramenta poderosa para testes de frontend. Este repositório foi criado para fornecer recursos, dicas e práticas recomendadas para profissionais que buscam otimizar a qualidade de suas aplicações por meio de testes robustos e eficientes com o Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.1.0",
+    "framework_cypress": "file:"
+  }
+}

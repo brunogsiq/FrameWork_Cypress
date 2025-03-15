@@ -31,14 +31,14 @@
      - Com Evento: Campos de entrada, saída, botões.
 
    - Campos a serem validados incluem:
-     - Alertas: 
+     - Alertas:
          - visíveis
          - tag HTML ou classe
          - atributos
          - CSS
          - texto
          - tempo de apresentação visivel e não visíveis.
-     - Âncoras e Botões: 
+     - Âncoras e Botões:
          - visíveis
          - habilitados ou não
          - tag HTML ou classe
@@ -46,12 +46,29 @@
          - CSS
          - texto
          - texto CSS.
-     - Listas: visíveis, tag HTML ou classe, atributos, CSS, texto, texto CSS.
-     - Checkbox: visíveis, atributos de check e mensagem, CSS.
-     - Campos de Datas: visíveis, tag HTML ou classe, atributos formcontrolname "begindate" ou "enddate", placeholder "00/00/0000", tipo, texto.
-     - Campo de Matriz: visível, tag HTML ou classe, atributo formcontrolname "fiscalNumber", placeholder "00.000.00/0000-00", tipo, texto.
-     - Ícones e Imagem: visíveis, atributo role="img", CSS, texto.
-     - Textos: 
+     - Listas:
+       - visíveis
+       - tag HTML ou classe
+       - atributos
+       - CSS
+       - texto
+       - texto CSS.
+     - Checkbox:
+       - visíveis
+       - atributos de check
+       - mensagem, CSS.
+     - Campos de Datas:
+       - visíveis
+       - tag HTML ou classe
+       - atributos formcontrolname "begindate" ou "enddate"
+       - placeholder "00/00/0000"
+       - tipo, texto.
+     - Ícones e Imagem:
+       - visíveis
+       - atributo role="img"
+       - CSS
+       - texto.
+     - Textos:
          - visíveis
          - CSS
-         - texto.
+         - texto
