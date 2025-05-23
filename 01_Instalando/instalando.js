@@ -12,7 +12,7 @@ Para iniciar o projeto, será necessário abrir uma pasta, e utilizando o VsCode
                 Porém nestas configurações quando perguntar test command: inserir npx cypress open
 
 Utilizando o seguinte comando:
-            npm install cypress --save -include=dev
+        npm install cypress@latest --save-dev
 
 Para verificar a versão do mesmo, será digitado no prompt de comando o seguinte comando
     npm -v
