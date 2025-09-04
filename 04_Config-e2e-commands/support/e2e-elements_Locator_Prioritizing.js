@@ -4,11 +4,15 @@ Através do código que será utilizado no teste, posso mudar a ordem de prioriz
 Para modificar, deve inserir o mesmo no arquivo support/e2e.js
 
 Cypress.ElementSelector({
-    selectorPriority: ['id', 'class', 'attributes', 'data-cy', 'data-test', 'data-testid', 'tag', 'nth-child']
+    selectorPriority: ['data-cy', 'data-test', 'data-testid', 'data-qa', 'id', 'class', 'attributes', 'data-cy', 'data-test', 'data-testid', 'tag', 'nth-child']
 })
 
 Cypress.ElementSelector= {
-    defaults: ['id', 'class', 'attributes', 'data-cy', 'data-test', 'data-testid', 'tag', 'nth-child']
+    defaults: ['data-cy', 'data-test', 'data-testid', 'data-qa', 'id', 'class', 'attributes', 'tag', 'nth-child']
 };
 
 Para realizar esta parte do curso, foi inserido o mesmo, assim o cypress já fará suas prioridades de forma diferente*/
+
+data-cy
+data-test
+data-testid

@@ -1,5 +1,5 @@
 //No arquivo e2e
 
-Cypress.ElementSelector= {
-    selectorPriority: ['id', 'class', 'attributes', 'data-cy', 'data-test', 'data-testid', 'tag', 'nth-child']
-};
+Cypress.ElementSelector.defaults({
+    selectorPriority: ['data-cy', 'data-test', 'data-testid', 'id', 'class', 'attributes', 'tag', 'nth-child']
+})
