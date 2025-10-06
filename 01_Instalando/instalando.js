@@ -1,39 +1,91 @@
-/* 
-Para realizar a instalação do Cypress é necessário ter o Node.js instalado
-    Após instalação e ciente de que estão configurados na váriaveis de ambiente, 
-        Utilizaremos o terminal de comando para instalação.
+Claro! Aqui está o guia em **Markdown**, direto aqui na tela para você usar no seu README ou salvar como `.md` quando quiser:
 
-Para iniciar o projeto, será necessário abrir uma pasta, e utilizando o VsCode, navegar até a mesma.
-    utilizaremos o comando
-        npm init --yes - responde sim a todas as perguntas feitas em um projeto Node.js
-        ou
-        npm init para responder detalhamentos do projeto.
-            Obs:As configurações posteriores são perguntas em tese sem importância pois não definição no momento,
-                Porém nestas configurações quando perguntar test command: inserir npx cypress open
+---
 
-Utilizando o seguinte comando:
-        npm install cypress@latest --save-dev
+# 📘 Guia de Instalação do Cypress
 
-Para verificar a versão do mesmo, será digitado no prompt de comando o seguinte comando
-    npm -v
-        Para verificação do node package manager
-    node -v 
-        Para verificação do node.js
+## 1. Pré-requisitos
 
-Após será necessário instalar o cypress e suas dependências dentro do projeto através do comando:
-    npm i cypress --save
+* Ter o **Node.js** instalado.
+* Garantir que o **Node.js** e o **npm** estão configurados nas variáveis de ambiente.
 
-Para rodar nossos testes utilizando a interface gráfica do do cypress será utilizado o comando:
-    npx cypress open
-    or
-    npx cypress run
+### Verificação de versões
 
-Para rodar e executar os testes do cypress em backgroud", o comando utilizado será:
-    npx cypress run
+```bash
+npm -v   # versão do npm
+node -v  # versão do Node.js
+```
 
-Possíveis erros e suas correções:
-    Erro:
-        Could not find a Cypress configuration file in this folder:
-    Correçâo:
-        npx cypress open --config-file theNewCypressConfigPath
-    */
+---
+
+## 2. Iniciando o Projeto
+
+1. Crie uma pasta e abra no **VS Code**.
+2. No terminal integrado, inicialize o projeto Node.js:
+
+```bash
+npm init --yes
+```
+
+> Responde **sim** a todas as perguntas.
+
+ou
+
+```bash
+npm init
+```
+
+> Permite responder os detalhes manualmente.
+> **Obs:** quando perguntar por **test command**, insira:
+>
+> ```
+> npx cypress open
+> ```
+
+---
+
+## 3. Instalando o Cypress
+
+Instale o Cypress e adicione como dependência de desenvolvimento:
+
+```bash
+npm install cypress@latest --save-dev
+```
+
+ou
+
+```bash
+npm i cypress --save
+```
+
+---
+
+## 4. Executando o Cypress
+
+### Interface Gráfica:
+
+```bash
+npx cypress open
+```
+
+### Execução em background:
+
+```bash
+npx cypress run
+```
+
+---
+
+## 5. Possíveis Erros e Correções
+
+**Erro:**
+
+```
+Could not find a Cypress configuration file in this folder:
+```
+
+**Correção:**
+
+```bash
+npx cypress open --config-file theNewCypressConfigPath
+```
