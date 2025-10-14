@@ -1,0 +1,18 @@
+//Exemplo01
+{
+    "consulta01": "123456789",
+    "consulta02": "12345678"
+};
+
+//Exemplo02
+
+{
+    "user01":{
+        "user": "meunome",
+        "pass": "senha01"
+    },
+    "user02":{
+        "user": "meunome",
+        "pass": "senha01"
+    }
+};
