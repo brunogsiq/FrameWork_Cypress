@@ -89,3 +89,6 @@ Could not find a Cypress configuration file in this folder:
 ```bash
 npx cypress open --config-file theNewCypressConfigPath
 ```
+## Para tests de componentes no terminal deverá ser utilizado o comando
+
+    npx cypress run --component
