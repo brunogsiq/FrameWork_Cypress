@@ -21,3 +21,6 @@ Aprofunde-se na simulação avançada de interações do usuário com o Cypress 
 Descubra a comunidade vibrante em torno do Cypress e explore recursos adicionais, como plugins e extensões, que podem aprimorar ainda mais sua experiência com o framework. Compartilhe conhecimento e participe de discussões para aprimorar suas habilidades em testes de frontend.
 
 Explore este repositório para aprofundar seu conhecimento no Framework Cypress e aprimorar sua abordagem aos testes de frontend! 🌲🔍
+
+
+Mensagem teste - Deverá ser apagada após documentação completa
